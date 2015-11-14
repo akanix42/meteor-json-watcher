@@ -10,7 +10,7 @@ Package.describe({
 Package.registerBuildPlugin({
 	name: 'json-watcher-build-plugin',
 	use: [
-		'ecmascript'
+		'ecmascript@0.1.6'
 	],
 	sources: [
 		'plugins.js'
